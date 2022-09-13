@@ -1,0 +1,195 @@
+@import "./Variables/Variables.sass"
+@import "./Fonts/Fonts.sass"
+
+.full-screen
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.5)
+    z-index: 0
+    opacity: 0
+    visibility: hidden
+    &.show
+        z-index: 1
+        opacity: 1
+        visibility: visible
+    .cart-drawer
+        position: fixed
+        display: flex
+        flex-direction: column
+        padding: 2rem
+        right:0
+        top:0
+        width: 350px
+        height: 100vh
+        background-color: #fff
+        box-shadow: -1.78px -1.78px 4px #00000040
+        z-index: 999
+        transform: translateX(1000px)
+        transition: all 0.5s ease
+        &.show
+            transform: translateX(0px)
+        .close
+            width: 32px
+            height: 32px
+            align-self: flex-end
+            background-color: transparent
+            border: none
+            outline: none
+            cursor: pointer
+            img
+                width: 100%
+        .title
+            display: flex
+            flex-direction: row
+            justify-content: center
+            margin-bottom: 30px
+            p
+                font-family: $fontFamily
+                font-size: 28px
+                color: $primary-color
+                text-align: center
+                font-weight: $fontWeightSemiBold
+                margin: 0
+        .no-item
+            font-family: $fontFamily
+            font-size: 18px
+            color: $text-black
+            text-align: center
+            font-weight: $fontWeightSemiBold
+            margin: 0
+        .sub-title
+            display: flex
+            flex-direction: row
+            justify-content: flex-start
+            margin-bottom: 30px
+            p
+                font-family: $fontFamily
+                font-size: 18px
+                color: $text-black
+                text-align: center
+                font-weight: $fontWeightSemiBold
+                margin: 0
+        .cart-card
+            display: flex
+            flex-direction: row
+            background-color: #fff
+            padding: 5px
+            border: 0.75px solid #ECECEC
+            border-radius: 7px
+            margin-bottom: 1rem
+            .image
+                flex-shrink: 0
+                width: 105px
+                height: 105px
+                border-radius: 8px
+                img
+                    width: 100%
+                    border-radius: 8px
+            .info
+                flex: 1 1 auto
+                margin-left: 15px
+                h6
+                    font-family: $fontFamily
+                    font-size: 14px
+                    color: $text-secondary-black
+                    text-align: left
+                    font-weight: $fontWeightSemiBold
+                    margin: 0
+                    margin-bottom: 10px
+                .quantity
+                    display: flex
+                    flex-direction: row
+                    align-items: center
+                    margin-bottom: 15px
+                    p
+                        font-family: $fontFamily
+                        font-size: 11px
+                        color: #3C3C3B
+                        text-align: left
+                        font-weight: $fontWeightSemiBold
+                        margin: 0
+                .price-remove
+                    display: flex
+                    flex-direction: row
+                    align-items: center
+                    justify-content: space-between
+                    .price
+                        display: flex
+                        flex-direction: row
+                        align-items: flex-end
+                        p
+                            font-family: $fontFamily
+                            font-size: 20px
+                            color: $primary-color
+                            text-align: left
+                            font-weight: $fontWeightSemiBold
+                            margin: 0
+                        span
+                            font-family: $fontFamily
+                            font-size: 14px
+                            color: $primary-color
+                            text-align: left
+                            font-weight: $fontWeightRegular
+                            margin: 0
+                            margin-left: 5px
+                    button
+                        background-color: $secondary-color
+                        font-family: $fontFamily
+                        padding: 6px 20px
+                        font-size: 10px
+                        color: #3C3C3B
+                        text-align: center
+                        font-weight: $fontWeightSemiBold
+                        margin: 0
+                        border: none
+                        outline: none
+                        border-radius: 12px
+                        cursor: pointer
+        .total
+            display: flex
+            flex-direction: row
+            justify-content: center
+            margin-bottom: 1rem
+            p
+                font-family: $fontFamily
+                font-size: 20px
+                color: $text-secondary-black
+                text-align: center
+                font-weight: $fontWeightSemiBold
+                margin: 0
+        .action
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+            button
+                height: 40px
+                width: 180px
+                border-radius: 24px
+                border: none
+                outline: none
+                margin: 0 10px
+                cursor: pointer
+            .cart
+                background-color: $secondary-color
+                color: $text-black
+                font-family: $fontFamily
+                font-size: 12px
+                text-align: center
+                font-weight: $fontWeightSemiBold
+                transition: all 0.5s ease
+                &:hover
+                    background-color: $secondary-color-hover
+            .checkout
+                background-color: $primary-color
+                color: #fff
+                font-family: $fontFamily
+                font-size: 12px
+                text-align: center
+                font-weight: $fontWeightSemiBold
+                transition: all 0.5s ease
+                &:hover
+                    background-color: $primary-color-hover

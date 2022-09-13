@@ -1,0 +1,38 @@
+@import "./Variables/Variables.sass"
+@import "./Fonts/Fonts.sass"
+
+.nav
+    min-height: 48px
+    max-height:48px
+    background-color:$text-black
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    box-shadow: 0px 0.73px 2px #00000080
+    .container
+        width: 1140px
+        padding-left: 15px
+        padding-right: 15px
+        margin-left: auto
+        margin-right: auto
+        ul
+            padding: 0
+            margin: 0
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+            li
+                list-style: none
+                font-family: $fontFamily
+                font-size: 17px
+                color: #fff
+                text-align: center
+                font-weight: $fontWeightSemiBold
+                transition: all 0.3s
+                cursor: pointer
+                &:hover
+                    color: $secondary-color
+                &.offer
+                    color: #F11133

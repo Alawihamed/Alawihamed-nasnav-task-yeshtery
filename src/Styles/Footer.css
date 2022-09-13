@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.footer {
+  background-color: #3C3C3B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.footer .container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .container .row {
+  display: flex;
+  flex-direction: row;
+}
+.footer .container .row .footer-box {
+  width: 50%;
+}
+.footer .container .row .footer-box .logo-desc {
+  border-right: 1px solid rgba(134, 134, 134, 0.2);
+}
+.footer .container .row .footer-box .logo-desc img {
+  width: 160px;
+  margin-bottom: 1rem;
+}
+.footer .container .row .footer-box .logo-desc p {
+  width: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: -0.4px;
+  font-weight: 300;
+  margin: 0;
+}
+.footer .container .row .footer-box .subscribe {
+  padding-left: 3rem;
+}
+.footer .container .row .footer-box .subscribe h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: left;
+  letter-spacing: -0.45px;
+  font-weight: 400;
+  margin: 0;
+}
+.footer .container .row .footer-box .subscribe .subscribe-box {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 3px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.footer .container .row .footer-box .subscribe .subscribe-box input {
+  width: 75%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+}
+.footer .container .row .footer-box .subscribe .subscribe-box button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  color: #000000;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: #FFF100;
+  border: none;
+  outline: none;
+  border-radius: 19px;
+}
+.footer .container .row .footer-box .subscribe .subscribe-box button img {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+.footer .container .row .footer-box .subscribe .links-social {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.footer .container .row .footer-box .subscribe .links-social .quick-link {
+  width: 60%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(134, 134, 134, 0.2);
+}
+.footer .container .row .footer-box .subscribe .links-social .quick-link li {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: left;
+  letter-spacing: -0.4px;
+  font-weight: 400;
+  margin: 0;
+  padding: 5px 0;
+}
+.footer .container .row .footer-box .subscribe .links-social .social {
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .row .footer-box .subscribe .links-social .social li {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: left;
+  letter-spacing: -0.4px;
+  font-weight: 400;
+  margin: 0;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .container .row .footer-box .subscribe .links-social .social li img {
+  width: 25px;
+  margin-right: 10px;
+}
+.footer .container .copy-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .container .copy-right .rights p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: left;
+  font-weight: 300;
+  margin: 0;
+}
+.footer .container .copy-right .payments img {
+  width: 55px;
+  height: 35px;
+  margin: 0 5px;
+}
+.footer .container .copy-right .powered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .container .copy-right .powered span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: right;
+  font-weight: 400;
+  margin: 0;
+  margin-right: 5px;
+}
+.footer .container .copy-right .powered img {
+  width: 80px;
+}
+.footer .container .divided {
+  width: 100%;
+  border-bottom: 0.5px solid rgba(134, 134, 134, 0.2);
+  margin: 1rem 0;
+}/*# sourceMappingURL=Footer.css.map */
