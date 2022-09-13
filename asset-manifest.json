@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/nasnav-task-yeshtery/static/css/main.3e984c6b.css",
-    "main.js": "/nasnav-task-yeshtery/static/js/main.2b135f3c.js",
+    "main.js": "/nasnav-task-yeshtery/static/js/main.31597746.js",
     "static/css/860.af07a5db.chunk.css": "/nasnav-task-yeshtery/static/css/860.af07a5db.chunk.css",
     "static/js/860.115a6301.chunk.js": "/nasnav-task-yeshtery/static/js/860.115a6301.chunk.js",
     "static/js/787.ad5f89c9.chunk.js": "/nasnav-task-yeshtery/static/js/787.ad5f89c9.chunk.js",
     "index.html": "/nasnav-task-yeshtery/index.html",
     "main.3e984c6b.css.map": "/nasnav-task-yeshtery/static/css/main.3e984c6b.css.map",
-    "main.2b135f3c.js.map": "/nasnav-task-yeshtery/static/js/main.2b135f3c.js.map",
+    "main.31597746.js.map": "/nasnav-task-yeshtery/static/js/main.31597746.js.map",
     "860.af07a5db.chunk.css.map": "/nasnav-task-yeshtery/static/css/860.af07a5db.chunk.css.map",
     "860.115a6301.chunk.js.map": "/nasnav-task-yeshtery/static/js/860.115a6301.chunk.js.map",
     "787.ad5f89c9.chunk.js.map": "/nasnav-task-yeshtery/static/js/787.ad5f89c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e984c6b.css",
-    "static/js/main.2b135f3c.js"
+    "static/js/main.31597746.js"
   ]
 }
