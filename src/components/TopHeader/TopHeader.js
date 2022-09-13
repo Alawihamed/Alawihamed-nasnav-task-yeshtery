@@ -10,7 +10,7 @@ export default class TopHeader extends Component {
                 <div className='row'>
                     <div className='wrapper'>
                         <img className='bar' src='./images/TopHeader/bar.svg' alt='bar-icon'/>
-                        <Link to={'/'}>
+                        <Link to={'/nasnav-task-yeshtery'}>
                             <img className='logo' src='./images/TopHeader/logo.svg' alt="Logo"/>
                         </Link>
                     </div>

@@ -37,7 +37,7 @@ export default class ProductCard extends Component {
               <img src='./images/product/brand-logo.svg' alt='brand-logo' />
             </div>
           </div>
-          <Link to={`./product-details/${this.props.item.id}`} className='more-details'>
+          <Link to={`/nasnav-task-yeshtery/product-details/${this.props.item.id}`} className='more-details'>
             More Details
           </Link>
         </div>
