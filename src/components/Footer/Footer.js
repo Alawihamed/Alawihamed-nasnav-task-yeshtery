@@ -9,7 +9,7 @@ export default class Footer extends Component {
                     <div className='row'>
                         <div className='footer-box'>
                             <div className='logo-desc'>
-                                <img src='../images/Footer/logo.svg' alt='footer-logo' />
+                                <img src='./images/Footer/logo.svg' alt='footer-logo' />
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                                     sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -32,7 +32,7 @@ export default class Footer extends Component {
                                 <h6>Subscribe to our newsletter</h6>
                                 <div className='subscribe-box'>
                                     <input type='text' placeholder='Enter Your Mail' />
-                                    <button>Subscribe <img alt='subscribe-button' src='../images/Footer/send-icon.svg' /></button>
+                                    <button>Subscribe <img alt='subscribe-button' src='./images/Footer/send-icon.svg' /></button>
                                 </div>
                                 <div className='links-social'>
                                     <ul className='quick-link'>
@@ -45,10 +45,10 @@ export default class Footer extends Component {
                                         <li>Shipping And Returns</li>
                                     </ul>
                                     <ul className='social'>
-                                        <li><img alt='social-icon' src='../images/Footer/facebook.svg'/>/YESHTERY</li>
-                                        <li><img alt='social-icon' src='../images/Footer/linkedin.svg'/>/YESHTERY</li>
-                                        <li><img alt='social-icon' src='../images/Footer/instagram.svg'/>/YESHTERY</li>
-                                        <li><img alt='social-icon' src='../images/Footer/twitter.svg'/>/YESHTERY</li>
+                                        <li><img alt='social-icon' src='./images/Footer/facebook.svg'/>/YESHTERY</li>
+                                        <li><img alt='social-icon' src='./images/Footer/linkedin.svg'/>/YESHTERY</li>
+                                        <li><img alt='social-icon' src='./images/Footer/instagram.svg'/>/YESHTERY</li>
+                                        <li><img alt='social-icon' src='./images/Footer/twitter.svg'/>/YESHTERY</li>
                                     </ul>
                                 </div>
                             </div>
@@ -60,13 +60,13 @@ export default class Footer extends Component {
                             <p>© 2021 yeshtery, all rights reserved.</p>
                         </div>
                         <div className='payments'>
-                            <img alt='payment-icon' src='../images/Footer/cash.png' />
-                            <img alt='payment-icon' src='../images/Footer/visa.png' />
-                            <img alt='payment-icon' src='../images/Footer/master.png' />
+                            <img alt='payment-icon' src='./images/Footer/cash.png' />
+                            <img alt='payment-icon' src='./images/Footer/visa.png' />
+                            <img alt='payment-icon' src='./images/Footer/master.png' />
                         </div>
                         <div className='powered'>
                             <span>Powered By</span>
-                            <img alt='powered-icon' src='../images/Footer/nasnav.svg' />
+                            <img alt='powered-icon' src='./images/Footer/nasnav.svg' />
                         </div>
                     </div>
                 </div>

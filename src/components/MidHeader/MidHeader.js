@@ -19,11 +19,11 @@ export default class MidHeader extends Component {
                 <div className='container'>
                     <div className='row'>
                         <div className='search-box'>
-                            <img src='../images/MidHeader/search.svg' alt='search-icon' />
+                            <img src='./images/MidHeader/search.svg' alt='search-icon' />
                             <input type='text' placeholder='search' />
                         </div>
                         <div className='brand-logo'>
-                            <img src='../images/MidHeader/adidas.svg' alt='brand-logo' />
+                            <img src='./images/MidHeader/adidas.svg' alt='brand-logo' />
                         </div>
                         <div className='right-side'>
                             <div className='box' onClick={this.onShowCart}>
@@ -35,7 +35,7 @@ export default class MidHeader extends Component {
                                 return (
                                 <>
                                     <div className='cart'>
-                                        <img src='../images/MidHeader/cart.svg' alt='cart-icon' />
+                                        <img src='./images/MidHeader/cart.svg' alt='cart-icon' />
                                         <p>{cartItemsCount}</p>
                                      </div>
                                     <span>Cart</span>
@@ -45,11 +45,11 @@ export default class MidHeader extends Component {
                             </CartContext.Consumer>
                             </div>
                             <div className='box'>
-                                <img src='../images/MidHeader/wishlist.svg' alt='wishlist-icon' />
+                                <img src='./images/MidHeader/wishlist.svg' alt='wishlist-icon' />
                                 <span>Wishlist</span>
                             </div>
                             <div className='box'>
-                                <img src='../images/MidHeader/login.svg' alt='login-icon' />
+                                <img src='./images/MidHeader/login.svg' alt='login-icon' />
                                 <span>Login</span>
                             </div>
                         </div>
