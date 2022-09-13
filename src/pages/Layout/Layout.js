@@ -11,8 +11,8 @@ export default class Layout extends Component {
       <>
       <Header />
       <Switch>
-        <Route exact path="/nasnav-task-yeshtery" component={Home} />
-        <Route exact path="/nasnav-task-yeshtery/product-details/:id" component={ProductDetails} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/product-details/:id" component={ProductDetails} />
       </Switch>
       <Footer />
       </>

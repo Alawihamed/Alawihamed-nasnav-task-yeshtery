@@ -12,7 +12,7 @@ export default class SimilarProducts extends Component {
                         {this.props.products.map((item, index) => (
                             <div className='similar-card' key={index}>
                                 <div className='image'>
-                                    <img src={`./${item?.image}`} alt="similar-img" />
+                                    <img src={`../${item?.image}`} alt="similar-img" />
                                     <div className='has-360'>
                                         <img src='../images/product/similar/360.svg' alt='360-icon' />
                                     </div>

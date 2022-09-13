@@ -8,7 +8,7 @@ export default class CartDrawer extends Component {
             <div className={`full-screen ${this.props.show === true ? 'show' : ''}`}>
                 <div className={`cart-drawer ${this.props.show === true ? 'show' : ''}`}>
                     <button className='close' onClick={this.props.onHideCart}>
-                        <img src='./images/CartDrawer/close-icon.png' alt='close-icon' />
+                        <img src='../images/CartDrawer/close-icon.png' alt='close-icon' />
                     </button>
                     <div className='title'>
                         <p>My Cart</p>
@@ -34,7 +34,7 @@ export default class CartDrawer extends Component {
                                                 {cartList.map((item, index) => (
                                                     <div className='cart-card' key={index}>
                                                         <div className='image'>
-                                                            <img alt='product-img' src={`./${item?.image}`} />
+                                                            <img alt='product-img' src={`../${item?.image}`} />
                                                         </div>
                                                         <div className='info'>
                                                             <h6>{item?.name}</h6>
