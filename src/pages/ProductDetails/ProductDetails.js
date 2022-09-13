@@ -39,24 +39,24 @@ class ProductDetails extends Component {
                         <div className='row'>
                             <div className='images'>
                                 <div className='main-image'>
-                                    <img src={`/${this.state.productData.image}`} alt='product-img' />
+                                    <img src={`../${this.state.productData.image}`} alt='product-img' />
                                     <div className='has-360'>
-                                        <img src='/images/product/360.svg' alt='360-icon' />
+                                        <img src='../images/product/360.svg' alt='360-icon' />
                                     </div>
                                 </div>
                                 <div className='slider-images'>
-                                    <img src='./images/product/left-icon.png' alt='left-icon'/>
+                                    <img src='../images/product/left-icon.png' alt='left-icon'/>
                                     {['slider-1','slider-2','slider-3','slider-4'].map((item,index)=>(
                                     <div key={index} className="image">
-                                        <img src={`./images/product/${item}.png`} alt={item}/>
+                                        <img src={`../images/product/${item}.png`} alt={item}/>
                                     </div>
                                     ))}
-                                    <img src='./images/product/right-icon.png' alt='right-icon'/>
+                                    <img src='../images/product/right-icon.png' alt='right-icon'/>
                                 </div>
                             </div>
                             <div className='product-info'>
                                 <div className='brand-logo'>
-                                    <img src='./images/product/brand-logo.svg' alt='brand-logo'/>
+                                    <img src='../images/product/brand-logo.svg' alt='brand-logo'/>
                                 </div>
                                 <div className='product-name'>
                                     <h6>{this.state.productData.name}</h6>
@@ -67,9 +67,9 @@ class ProductDetails extends Component {
                                 <div className='product-review'>
                                     <div className='stars'>
                                         {[1,2,3,4].map((__item,index)=>(
-                                            <img key={index} src='./images/product/fill-star.svg' alt='star'/>
+                                            <img key={index} src='../images/product/fill-star.svg' alt='star'/>
                                         ))}
-                                        <img src='./images/product/empty-star.svg' alt='star'/>
+                                        <img src='../images/product/empty-star.svg' alt='star'/>
                                     </div>
                                     <h6>4.9 of 5</h6>
                                     <span>22 Rates</span>
@@ -105,7 +105,7 @@ class ProductDetails extends Component {
                                     <div className='colors'>
                                          {['color-1','color-2'].map((item,index)=>(
                                             <div key={index} className={`color-box ${index===0 ? 'active' : '' }`}>
-                                                <img src={`./images/product/${item}.png`} alt={item}/>
+                                                <img src={`../images/product/${item}.png`} alt={item}/>
                                             </div>
                                          ))}
                                     </div>
@@ -114,9 +114,9 @@ class ProductDetails extends Component {
                                 <div className='product-quantity'>
                                     <h3>Quantity</h3>
                                     <div className='quantity-box'>
-                                         <button onClick={this.onDecrementQuantity}><img alt='decrement' src='./images/product/decrement.png' /></button>
+                                         <button onClick={this.onDecrementQuantity}><img alt='decrement' src='../images/product/decrement.png' /></button>
                                          <p>{this.state.quantity}</p>
-                                         <button onClick={this.onIncrementQuantity}><img alt='increment' src='./images/product/increment.png' /></button>
+                                         <button onClick={this.onIncrementQuantity}><img alt='increment' src='../images/product/increment.png' /></button>
                                     </div>
                                 </div>
                                 <div className='product-action'>

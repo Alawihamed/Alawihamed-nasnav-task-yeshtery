@@ -14,7 +14,7 @@ export default class SimilarProducts extends Component {
                                 <div className='image'>
                                     <img src={`./${item?.image}`} alt="similar-img" />
                                     <div className='has-360'>
-                                        <img src='./images/product/similar/360.svg' alt='360-icon' />
+                                        <img src='../images/product/similar/360.svg' alt='360-icon' />
                                     </div>
                                 </div>
                                 <div className='info'>
@@ -38,15 +38,15 @@ export default class SimilarProducts extends Component {
                                             )}
                                         </div>
                                         <div className='brand'>
-                                            <img src='./images/product/similar/brand-logo.svg' alt='brand-logo' />
+                                            <img src='../images/product/similar/brand-logo.svg' alt='brand-logo' />
                                         </div>
                                     </div>
                                     <div className='product-review'>
                                         <div className='stars'>
                                             {[1, 2, 3, 4].map((__item, index) => (
-                                                <img key={index} src='/images/product/fill-star.svg' alt='star' />
+                                                <img key={index} src='../images/product/fill-star.svg' alt='star' />
                                             ))}
-                                            <img src='./images/product/empty-star.svg' alt='star' />
+                                            <img src='../images/product/empty-star.svg' alt='star' />
                                         </div>
                                         <h6>4.9 of 5</h6>
                                     </div>
